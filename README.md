@@ -12,7 +12,7 @@ Project machine learning kedua saya: memprediksi biaya premi asuransi kesehatan 
 - **Modeling:** Membandingkan performa model **RandomForestRegressor** dan **XGBoostRegressor** yang tangguh terhadap data bertipe *skewed*.
 
 ## Hasil Utama
-Model **XGBoostRegressor** memberikan performa terbaik dalam memprediksi biaya asuransi dengan skor $R^2$ yang tinggi dan *Mean Absolute Error* (MAE) yang minimal.
+Model ensemble **Random Forest** + **XGBoost** memprediksi biaya asuransi dengan R² 0,876 dan galat rata-rata sekitar 19% pada data uji, dengan status perokok sebagai faktor yang paling menentukan.
 
 ## Tools
 Python, Pandas, NumPy, Scikit-Learn, XGBoost, Matplotlib, Seaborn
