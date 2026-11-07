@@ -3,7 +3,7 @@
 Project machine learning kedua saya: memprediksi biaya premi asuransi kesehatan individu (`charges`) menggunakan algoritma regresi berbasis *tree-based ensemble*.
 
 ## Dataset
-Data sekunder biaya asuransi kesehatan individu yang mencakup fitur demografis, gaya hidup (termasuk status perokok), dan fisik (BMI).
+[Link ke dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
 ## Ringkasan Proses
 - **EDA & Visualisasi:** Mengevaluasi distribusi variabel target (`charges`) yang memiliki ekor panjang ke kanan (*right-skewed*) serta menganalisis korelasi antar fitur.
